@@ -15,7 +15,7 @@ const Header = () => {
         </ul>
 
         <div className="h-10 w-10 rounded-full bg-gray-300 flex justify-center items-center" >
-          <ShoppingCart/>
+          <ShoppingCart className="h-6 w-6"/>
 
 
         </div>
