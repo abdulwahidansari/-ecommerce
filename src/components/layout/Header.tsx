@@ -5,7 +5,7 @@ import {ShoppingCart} from "lucide-react"
 
 const Header = () => {
   return (
-    <div className="flex justify-between items-center px-8 py-6">
+    <div className="flex justify-between items-center  px-8 py-6">
       <Image src={Logo} alt="" />
       <ul className="flex gap-x-10">
         <li className="text-lg"><Link href={"/ "}>Female </Link></li>
