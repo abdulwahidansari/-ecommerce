@@ -8,10 +8,10 @@ const Header = () => {
     <div className="flex justify-between items-center  px-8 py-6">
       <Image src={Logo} alt="" />
       <ul className="flex gap-x-10">
-        <li className="text-lg"><Link href={"/ "}>Female </Link></li>
-        <li className="text-lg"><Link href={"/ "}>Male </Link></li>
-        <li className="text-lg"><Link href={"/ "}>Kids </Link></li>
-        <li className="text-lg"><Link href={"/ "}>All Product </Link></li>
+        <li className="text-lg"><Link href={"category/Female "}>Female </Link></li>
+        <li className="text-lg"><Link href={"category/Male "}>Male </Link></li>
+        <li className="text-lg"><Link href={"category/Kids "}>Kids </Link></li>
+        <li className="text-lg"><Link href={"/products "}>All Product </Link></li>
         </ul>
 
         <div className="h-10 w-10 rounded-full bg-gray-300 flex justify-center items-center" >

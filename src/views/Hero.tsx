@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <section className='flex'>
+    <section className='flex flex-col gap-10 lg:flex-row py-6'>
         {/*left div*/}
 
         <div className='flex-1'> 
